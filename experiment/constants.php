@@ -1,13 +1,13 @@
 <script>
-  var intro_instructions = {
+  var trial = {
     type: 'instructions',
-    pages: [
-      'Welcome to the Psych 121 Experiment.'
-    ],
+    pages: ['Welcome to the experiment. Click next to begin.',
+      'This is the second page of instructions.',
+      'This is the final page.'],
     show_clickable_nav: true
   }
-
   jsPsych.init({
-    display_element: $('#jspsych-target'), timeline:[intro_instructions], on_finish: function(){ jsPsych.data.displayData();} 
+    timeline: [trial],
+    on_finish: function(){ jsPsych.data.displayData(); }
   });
-</script>
+  </script>
