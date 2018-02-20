@@ -1,6 +1,8 @@
 <?php include('header.php'); ?>
 
-  <body></body>
+  <body>
+    <div id="jspsych-target"></div>
+  </body>
 
   <?php include('constants.php'); ?>
 
