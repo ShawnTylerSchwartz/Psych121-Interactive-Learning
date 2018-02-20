@@ -17,7 +17,7 @@
       return false;
     };
 
-  var consent_block = {
+  var consent = {
     "type": "html",
     "force_refresh": true,
     "url": "src/external_html/simple_consent.html",
