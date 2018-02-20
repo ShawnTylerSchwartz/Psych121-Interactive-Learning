@@ -7,7 +7,7 @@
   <script src="constants.js"></script>
 
   <?php include('saveMethod.php'); ?>
-  
-  <script src="init.php"></script>
+
+  <?php include('init.php'); ?>
 
 </html>

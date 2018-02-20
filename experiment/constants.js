@@ -4,4 +4,4 @@ var intro_instructions = {
     'Welcome to the Psych 121 Experiment.'
   ],
   show_clickable_nav: true
-};
+}
