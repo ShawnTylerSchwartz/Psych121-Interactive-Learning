@@ -11,7 +11,7 @@
       if ($('#consent_checkbox').is(':checked')) {
         return true;
       } else {
-        alert("If you agree to all of the instructions presented wish to participate in our Psych 121 Experiment, you must check the box next to the statement 'I agree to participate in this Psych 121 Experiment.' All data will be submitted anonymously and no identifying information will be attached to your data file. All results are for Psych 121 purposes only.");
+        alert("If you agree to all of the instructions presented wish to participate in our Psych 121 Experiment, you must check the box next to the statement 'I agree to participate in this Psych 121 Experiment.' All data will be submitted anonymously and no identifying information will be attached to your data file. All results are for Psych 121 purposes only. IF YOU DECLINE TO ACCEPT, YOU WILL BE UNABLE TO MOVE FORWARD AND WILL NOT BE ABLE TO PARTICIPATE IN OUR PSYCH 121 STUDY!!");
         return false;
       }
       return false;
