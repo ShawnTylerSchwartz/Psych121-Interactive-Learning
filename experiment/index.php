@@ -6,8 +6,4 @@
 
   <script src="constants.js"></script>
 
-  <?php include('saveMethod.php'); ?>
-
-  <?php include('init.php'); ?>
-
 </html>
