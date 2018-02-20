@@ -4,6 +4,6 @@
     <div id="jspsych-target"></div>
   </body>
 
-  <script src="constants.js"></script>
+  <?php include('constants.php'); ?>
 
 </html>
