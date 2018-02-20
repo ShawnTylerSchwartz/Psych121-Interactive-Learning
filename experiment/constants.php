@@ -17,7 +17,7 @@
       return false;
     };
 
-  var consent = {
+  var consent_block = {
     "type": "html",
     "force_refresh": true,
     "url": "src/external_html/simple_consent.html",
@@ -26,7 +26,7 @@
   }
   
   jsPsych.init({
-    timeline: [intro_instructions, consent],
+    timeline: [intro_instructions, consent_block],
     on_finish: function(){ jsPsych.data.displayData(); }
   });
 </script>
