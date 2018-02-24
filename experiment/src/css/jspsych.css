@@ -37,6 +37,8 @@ p {
 .fact {
   padding-top: 200px;
   text-align: center;
+  font-weight: normal;
+  font-size: 24px;
 }
 
 .resumeContainer {
