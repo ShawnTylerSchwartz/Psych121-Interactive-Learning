@@ -1,4 +1,4 @@
-<?php include('question_costs.php'); ?>
+<?php include('question_consts.php'); ?>
 var test_quest_one = {
     type: 'single-stim',
     stimulus: 'src/stim/giphy-downsized-large.gif',
