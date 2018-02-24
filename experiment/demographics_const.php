@@ -79,9 +79,9 @@
     questions: behere_scale_questions,
     labels: [level_of_agreement_scale]
   };
-  
+
   var science_block = {
     type: 'survey-likert',
     questions: science_scale_questions,
-    lables: [level_of_agreement_scale]
+    labels: [level_of_agreement_scale]
   };
