@@ -4,6 +4,6 @@
     <div id="jspsych-target"></div>
   </body>
 
-  <?php include('constants.php'); ?>
+  <?php include('a_video-group.php'); ?>
 
 </html>
