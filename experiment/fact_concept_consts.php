@@ -4,6 +4,12 @@
   $facts_timing = 10000; //ms (10 s)
   $concepts_timing = 45000; //ms (45 s)
 
+  $post_trial_timing = 3000; //ms (3 s)
+
+  $stim_vids_length = 12000; //ms (12 s) TBD
+
+  $post_vid_timing = 250; //ms (.25 s)
+
   // Facts
   $fact_one = "Robert Downey Jr. credits Burger King for getting him off drugs.";
   $fact_two = "The Cookie Monster's real name is 'Sid.'";
