@@ -13,7 +13,7 @@ var test_quest_one = {
 
 var test_quest_two = {
     type: 'single-stim',
-    stimulus: '<fact>This is a test statement</fact>',
+    stimulus: '<h1 class="fact">This is a test statement</h1>',
     timing_response: 1000,
     timing_post_trial: 2000,
     is_html: true,
