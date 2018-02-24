@@ -34,6 +34,12 @@ p {
   font-size: 150%;
 }
 
+fact {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .resumeContainer {
   width: 800px;
   margin: 50px auto 50px auto;
