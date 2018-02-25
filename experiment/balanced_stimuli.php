@@ -26,3 +26,7 @@ var fact_one_stim = {
     }
   }
 
+var trial = {
+    type: 'video',
+    sources: ['stim/fact_one_moving.mp4']
+}
