@@ -16,7 +16,7 @@ var fact_one_text = {
 var fact_one_prestim = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $pre_action_vid; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $pretext_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {

@@ -3,15 +3,16 @@
   // Screen Timings
   $facts_timing = 10000; //ms (10 s)
   $concepts_timing = 45000; //ms (45 s)
+  $pretext_timing = 3500; // ms (3.5 s)
 
   $post_trial_timing = 1500; //ms (1.5 s)
 
-  $stim_vids_length = 9750; //ms (9.75 s) TBD
+  $stim_vids_length = 9300; //ms (9.30 s) TBD
 
   $post_vid_timing = 250; //ms (.25 s)
 
   // Pre-Video Instruction
-  $pre_action_vid = "You will now act out the following video action. Please follow along.";
+  $pre_action_vid = "&raquo; You will now act out the following video action. Please follow along.";
   $pre_action_still = "You will now act out the following action in the upcoming image. Please follow along.";
   $pre_imagine_vid = "You will now mentally imagine yourself doing the action in the following video.";
   $pre_imagine_still = "You will now mentally imagine yourself doing the action in the following still image.";
