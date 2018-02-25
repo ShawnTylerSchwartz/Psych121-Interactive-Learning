@@ -15,7 +15,7 @@ var fact_one_text = {
 
 var fact_one_stim = {
     type: 'single-stim',
-    stimulus: 'src/stim/source.gif',
+    stimulus: 'src/stim/1.jpg',
     timing_response: <?php echo $stim_vids_length; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     prompt: '<p class="center-content">Have you seen this face before? Y or N.</p>',
