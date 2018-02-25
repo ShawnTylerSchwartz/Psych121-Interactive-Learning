@@ -6,7 +6,7 @@
 
   $post_trial_timing = 3000; //ms (3 s)
 
-  $stim_vids_length = 12000; //ms (12 s) TBD
+  $stim_vids_length = 10100; //ms (12 s) TBD
 
   $post_vid_timing = 250; //ms (.25 s)
 
