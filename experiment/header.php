@@ -13,7 +13,6 @@
     <script src="src/plugins/jspsych-competence.js"></script>
     <script src="src/plugins/jspsych-single-stim.js"></script>
     <script src="src/plugins/jspsych-text.js"></script>
-    <script src="src/plugins/jspsych-video.js"></script>
     <link rel="stylesheet" href="src/css/jquery-ui.css"></link>
     <link rel="stylesheet" href="src/css/jspsych.css"></link>
   </head>
