@@ -19,7 +19,7 @@
 
   // Facts
   $fact_one = "Robert Downey Jr. credits Burger King for getting him off drugs.";
-  $fact_two = "The Cookie Monster's real name is Sid.";
+  $fact_two = "The Cookie Monster\'s real name is Sid.";
   $fact_three = "A shrimp's heart is inside of its head.";
   $fact_four = "Coca-Cola would be green if coloring wasn't added to it.";
   $fact_five = "The cigarette lighter was invented before the match.";
