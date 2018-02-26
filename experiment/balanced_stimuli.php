@@ -989,12 +989,3 @@ var concept_eight_stim_still = {
       });
     }
   };
-
-var facts_and_concepts = [ "<?php echo $fact_one; ?>", "<?php echo $fact_two; ?>", "<?php echo $fact_three; ?>", "<?php echo $fact_four; ?>", "<?php echo $fact_five; ?>", "<?php echo $fact_six; ?>", "<?php echo $fact_seven; ?>", "<?php echo $fact_eight; ?>", "<?php echo $fact_nine; ?>", "<?php echo $fact_ten; ?>", "<?php echo $fact_eleven; ?>", "<?php echo $fact_twelve; ?>", "<?php echo $fact_thirteen; ?>", "<?php echo $fact_fourteen; ?>", "<?php echo $fact_fifteen; ?>", "<?php echo $fact_sixteen; ?>", "<?php echo $concept_one; ?>", "<?php echo $concept_two; ?>", "<?php echo $concept_three; ?>", "<?php echo $concept_four; ?>", "<?php echo $concept_five; ?>", "<?php echo $concept_six; ?>", "<?php echo $concept_seven; ?>", "<?php echo $concept_eight; ?>" ];
-
-var final_yn_facts_concepts_block = {
-  type: 'survey-multi-choice',
-  questions: facts_and_concepts,
-  options: [yn_options],
-  required: [true]
-};
