@@ -146,4 +146,3 @@ var concept_question_eight_block = {
   type: 'survey-text',
   questions: concept_question_eight
 };
-
