@@ -13,7 +13,7 @@ var prestim_moving_action = {
         correct: true
       });
     }
-  }
+  };
 
 var prestim_still_action = {
     type: 'single-stim',
@@ -26,7 +26,7 @@ var prestim_still_action = {
         correct: true
       });
     }
-  }
+  };
 
 var prestim_moving_imagine = {
     type: 'single-stim',
@@ -39,7 +39,7 @@ var prestim_moving_imagine = {
         correct: true
       });
     }
-  }
+  };
 
 var prestim_still_imagine = {
     type: 'single-stim',
@@ -52,7 +52,7 @@ var prestim_still_imagine = {
         correct: true
       });
     }
-  }
+  };
 
 /************ FACT ONE BLOCKS ************/
 
@@ -67,7 +67,7 @@ var fact_one_text = {
         correct: true
       });
     }
-  }
+  };
 
 var fact_one_stim_moving = {
     type: 'single-stim',
@@ -79,7 +79,7 @@ var fact_one_stim_moving = {
         correct: true
       });
     }
-  }
+  };
 
 var fact_one_stim_still = {
     type: 'single-stim',
@@ -91,4 +91,4 @@ var fact_one_stim_still = {
         correct: true
       });
     }
-  }
+  };
