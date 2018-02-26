@@ -17,7 +17,7 @@ var fact_one_text = {
 
 var fact_one_prestim = {
     type: 'single-stim',
-    stimulus: '<video src="src/stim/movs/fact_moving_05.mp4" autoplay poster="src/stim/stills/fact_still_05-1.jpg"></video>',
+    stimulus: '<video src="src/stim/movs/fact_moving_05.mp4" autoplay poster="src/stim/stills/fact_still_05-1.jpg" width="600px" height="400px"></video>',
     timing_response: <?php echo $pretext_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
