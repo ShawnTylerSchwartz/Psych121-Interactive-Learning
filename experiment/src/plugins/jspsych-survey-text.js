@@ -33,9 +33,6 @@ jsPsych.plugins['survey-text'] = (function() {
     // this evaluates the function and replaces
     // it with the output of the function
     trial = jsPsych.pluginAPI.evaluateFunctionParameters(trial);
-    
-        trial.timing_response = trial.timing_response || -1;
-
 
     // show preamble text
     display_element.append($('<div>', {
@@ -86,16 +83,6 @@ jsPsych.plugins['survey-text'] = (function() {
         "rt": response_time,
         "responses": JSON.stringify(question_data)
       };
-      
-      
-      // end trial if time limit is set
-    if (trial.timing_response > 0) {
-      var t2 = setTimeout(function() {
-        end_trial();
-      }, trial.timing_response);
-      setTimeoutHandlers.push(t2);
-    }
-      
 
       display_element.html('');
 
