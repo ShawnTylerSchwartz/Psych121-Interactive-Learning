@@ -41,15 +41,6 @@ p {
   font-size: 24px;
 }
 
-textarea[name="text"] {
-  width:100%;
-  background-size: 100% 1.75em;
-  overflow-x:hidden;
-  color:rgba(255, 255, 255, 1);
-  padding: 0 1em 0 1em;
-  resize:none;
-}
-
 /* Classes for changing location of things */
 
 .left {
