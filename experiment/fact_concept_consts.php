@@ -29,7 +29,7 @@
   $fact_nine = "On average, twelve newborns will be given to the wrong parents daily?";
   $fact_ten = "Pirates wore earrings because they believed it improved their eyesight.";
   $fact_eleven = "Christian Barnard was the first person to perform heart surgery.";
-  $fact_tweleve = "During your lifetime, you will spend around thirty-two days brushing your teeth.";
+  $fact_twelve = "During your lifetime, you will spend around thirty-two days brushing your teeth.";
   $fact_thirteen = "Over one-thousand birds die a year from smashing into windows.";
   $fact_fourteen = "When hippos are upset, their sweat turns red.";
   $fact_fifteen = "If a female ferret does not have sex for two years, she will die.";
