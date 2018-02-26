@@ -20,7 +20,7 @@
   // Facts
   $fact_one = "Robert Downey Jr. credits Burger King for getting him off drugs.";
   $fact_two = "The Cookie Monster\'s real name is Sid.";
-  $fact_three = "A shrimp's heart is inside of its head.";
+  $fact_three = "A shrimp\'s heart is inside of its head.";
   $fact_four = "Coca-Cola would be green if coloring wasn't added to it.";
   $fact_five = "The cigarette lighter was invented before the match.";
   $fact_six = "In 1386 a pig in France was executed by public hanging for the murder of a child.";
@@ -36,7 +36,7 @@
   $fact_sixteen = "The signature line is actually the word 'signature' repeated over and over again.";
 
   // Concepts
-  $concept_one = "When a bottle is at rest, water flows out through the hole in the base, because the water's weight is directed downwards as a result of a downward gravitational force. Thus, as the bottle is falling, the outflow of water will be 'cancelled' during the fall because both the bottle and the water are moving downwards in the same direction. After the bottle leaves the hand, the only force acting on it is its own weight, so it is in free fall, regardless of the direction of the bottle.";
+  $concept_one = "When a bottle is at rest, water flows out through the hole in the base, because the water\'s weight is directed downwards as a result of a downward gravitational force. Thus, as the bottle is falling, the outflow of water will be \'cancelled\' during the fall because both the bottle and the water are moving downwards in the same direction. After the bottle leaves the hand, the only force acting on it is its own weight, so it is in free fall, regardless of the direction of the bottle.";
 
   $concept_two = "Pressure, volume, and temperature are quantities that are related to each other in ways that vary depending on the properties of the current system being analyzed. In an isobaric (constant pressure) process, as volume increases, temperature increases. In an isovolumetric (constant volume) process, as pressure increases, temperature increases. In an isothermal (constant temperature) process, as pressure increases, volume decreases, and vice-versa.";
 
@@ -50,6 +50,6 @@
 
   $concept_seven = "Just about everyone at one time or another has been burned by hot water or steam. This problem compares the heat input to your skin from steam as opposed to hot water at the same temperature. Under these conditions, steam has to release the latent heat of vaporization as well as the heat stored in the water versus water just losing its heat directly to the external environment.";
 
-  $concept_eight = "Legend says that Archimedes' principle was formed when he was given the task to determine whether the crown was made of pure gold in a nondestructive test. He got the idea by stepping into his bathtub, causing it to overflow, where he realized that he could answer the challenge by comparing the volume of water displaced by the crown with the volume of water displaced by an amount of pure gold equal in weight to the crown. The two volumes would be equal if the crown was made of pure gold and the crown would displace more water than pure gold would if the crown was made of another, less dense, metal.";
+  $concept_eight = "Legend says that Archimedes\' principle was formed when he was given the task to determine whether the crown was made of pure gold in a nondestructive test. He got the idea by stepping into his bathtub, causing it to overflow, where he realized that he could answer the challenge by comparing the volume of water displaced by the crown with the volume of water displaced by an amount of pure gold equal in weight to the crown. The two volumes would be equal if the crown was made of pure gold and the crown would displace more water than pure gold would if the crown was made of another, less dense, metal.";
 
 ?>
