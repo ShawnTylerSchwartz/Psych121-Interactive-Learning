@@ -112,11 +112,4 @@
     questions: science_scale_questions,
     lables: [level_of_agreement_scale]
   };
-  
-  
-  
-  jsPsych.init({
-    display_element: $('#jspsych-target'), timeline: [intro_instructions, consent_block],
-    on_finish: function(){ jsPsych.data.displayData(); }
-  });
 </script>

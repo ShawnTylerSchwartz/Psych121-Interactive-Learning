@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
   <head>
+    <!--
+    (c) Shawn Tyler Schwartz, 2018
+        https://shawntylerschwartz.com
+        git.shawntylerschwartz.com/Psych121-Interactive-Learning
+    -->
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/jquery-ui.min.js"></script>
     <script src="src/jspsych.js"></script>
