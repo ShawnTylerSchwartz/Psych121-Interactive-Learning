@@ -1,5 +1,7 @@
 <?php include('fact_concept_consts.php'); ?>
 
+/************ FACT ONE BLOCK ************/
+
 var fact_one_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $fact_one; ?></p>',
@@ -15,7 +17,7 @@ var fact_one_text = {
 
 var fact_one_prestim = {
     type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $pre_action_vid; ?></p>',
+    stimulus: '<video src="src/stim/movs/fact_moving_05.mp4" autoplay poster="src/stim/stills/fact_still_05-1.jpg"></video>',
     timing_response: <?php echo $pretext_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
@@ -37,3 +39,7 @@ var fact_one_stim = {
       });
     }
   }
+
+/************ FACT TWO BLOCK ************/
+
+

@@ -7,15 +7,15 @@
 
   $post_trial_timing = 1500; //ms (1.5 s)
 
-  $stim_vids_length = 9300; //ms (9.30 s) TBD
+  $stim_vids_length = 9400; //ms (9.4 s) TBD
 
   $post_vid_timing = 250; //ms (.25 s)
 
   // Pre-Video Instruction
-  $pre_action_vid = "&raquo; You will now act out the following video action. Please follow along.";
-  $pre_action_still = "You will now act out the following action in the upcoming image. Please follow along.";
-  $pre_imagine_vid = "You will now mentally imagine yourself doing the action in the following video.";
-  $pre_imagine_still = "You will now mentally imagine yourself doing the action in the following still image.";
+  $pre_action_vid = "You will now act out the following video action. Please follow along. >>";
+  $pre_action_still = "You will now act out the following action in the upcoming image. Please follow along. >>";
+  $pre_imagine_vid = "You will now mentally imagine yourself doing the action in the following video. >>";
+  $pre_imagine_still = "You will now mentally imagine yourself doing the action in the following still image. >>";
 
   // Facts
   $fact_one = "Robert Downey Jr. credits Burger King for getting him off drugs.";
