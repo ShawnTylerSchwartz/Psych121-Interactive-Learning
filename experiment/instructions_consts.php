@@ -47,6 +47,13 @@ var pre_controlled_instructions = {
     show_clickable_nav: true
 }
 
+var pre_game_instructions = {
+  type: 'instructions',
+  pages: ['You will now play a short game before moving on.'
+    'When you are ready to being, please click next.'],
+    show_clickable_nav: true
+}
+
 var pre_quiz_instructions = {
   type: 'instructions',
   pages: ['You will now be asked questions regarding the items that were just presented to you.'
