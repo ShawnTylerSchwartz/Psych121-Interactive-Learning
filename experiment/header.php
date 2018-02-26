@@ -2,9 +2,14 @@
 <html>
   <head>
     <!--
+
     (c) Shawn Tyler Schwartz, 2018
         https://shawntylerschwartz.com
-        git.shawntylerschwartz.com/Psych121-Interactive-Learning
+
+    Git Repository: git.shawntylerschwartz.com/Psych121-Interactive-Learning
+
+    Developed at the University of California, Los Angeles (UCLA) for Psychology 121: Cognitive Psychology Laboratory
+        
     -->
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/jquery-ui.min.js"></script>
