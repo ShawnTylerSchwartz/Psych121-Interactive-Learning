@@ -1,6 +1,6 @@
 <?php include('fact_concept_consts.php'); ?>
 
-/************ FACT ONE BLOCK ************/
+/************ FACT ONE BLOCKS ************/
 
 var fact_one_text = {
     type: 'single-stim',
@@ -15,9 +15,9 @@ var fact_one_text = {
     }
   }
 
-var fact_one_prestim = {
+var fact_one_prestim_moving_action = {
     type: 'single-stim',
-    stimulus: '<video src="src/stim/movs/fact_moving_05.mp4" autoplay poster="src/stim/stills/fact_still_05-1.jpg" width="600px" height="400px"></video>',
+    stimulus: '<p class="fact"><?php echo $pre_action_vid; ?></p>',
     timing_response: <?php echo $pretext_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
@@ -28,9 +28,48 @@ var fact_one_prestim = {
     }
   }
 
-var fact_one_stim = {
+var fact_one_prestim_still_action = {
     type: 'single-stim',
-    stimulus: 'src/stim/fact_one_moving.gif',
+    stimulus: '<p class="fact"><?php echo $pre_action_still; ?></p>',
+    timing_response: <?php echo $pretext_timing; ?>,
+    timing_post_trial: <?php echo $post_trial_timing; ?>,
+    is_html: true,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  }
+
+var fact_one_prestim_moving_imagine = {
+    type: 'single-stim',
+    stimulus: '<p class="fact"><?php echo $pre_imagine_vid; ?></p>',
+    timing_response: <?php echo $pretext_timing; ?>,
+    timing_post_trial: <?php echo $post_trial_timing; ?>,
+    is_html: true,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  }
+
+var fact_one_prestim_still_imagine = {
+    type: 'single-stim',
+    stimulus: '<p class="fact"><?php echo $pre_imagine_still; ?></p>',
+    timing_response: <?php echo $pretext_timing; ?>,
+    timing_post_trial: <?php echo $post_trial_timing; ?>,
+    is_html: true,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  }
+
+var fact_one_stim_moving = {
+    type: 'single-stim',
+    stimulus: 'src/stim/gifs/fact_moving_01.gif',
     timing_response: <?php echo $stim_vids_length; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
@@ -40,6 +79,18 @@ var fact_one_stim = {
     }
   }
 
-/************ FACT TWO BLOCK ************/
+var fact_one_stim_still = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_01_comb.png',
+    timing_response: <?php echo $stim_vids_length; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  }
+
+
 
 
