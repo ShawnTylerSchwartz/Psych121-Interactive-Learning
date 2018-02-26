@@ -47,11 +47,3 @@ var pre_controlled_instructions = {
     show_clickable_nav: true
 };
 
-
-var pre_quiz_instructions = {
-  type: 'instructions',
-  pages: ['You will now be asked questions regarding the items that were just presented to you.'
-    'Please answer each question to the best of your ability or leave it blank if you are certain that you do not know the answer. When you are ready to being, please click next.'],
-    show_clickable_nav: true
-};
-
