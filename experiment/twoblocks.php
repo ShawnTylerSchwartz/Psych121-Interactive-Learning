@@ -2,7 +2,7 @@
 
 var fact_two_text = {
     type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_one; ?></p>',
+    stimulus: '<p class="fact"><?php echo $fact_two; ?></p>',
     timing_response: <?php echo $facts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
