@@ -53,3 +53,11 @@ var pre_quiz_instructions = {
     'Please answer each question to the best of your ability or leave it blank if you are certain that you do not know the answer. When you are ready to being, please click next.'],
     show_clickable_nav: true
 };
+
+var post_quiz_instructions = {
+  type: 'instructions',
+  pages: ['Thank you for answering the questions. Before you are finished, we ask that you please check off any items from the following list that you already knew before you began this experiment.',
+    'Your honesty is important for the validity of this study. Please choose concepts or facts that you ALREADY KNEW the answer to with CERTAINTY BEFORE BEGINNING THIS EXPERIMENT. When you are ready to being, please click next.'],
+    show_clickable_nav: true
+};
+
