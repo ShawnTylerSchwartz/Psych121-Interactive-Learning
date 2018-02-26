@@ -21,7 +21,7 @@
   $fact_one = "Robert Downey Jr. credits Burger King for getting him off drugs.";
   $fact_two = "The Cookie Monster\'s real name is Sid.";
   $fact_three = "A shrimp\'s heart is inside of its head.";
-  $fact_four = "Coca-Cola would be green if coloring wasn't added to it.";
+  $fact_four = "Coca-Cola would be green if coloring wasn\'t added to it.";
   $fact_five = "The cigarette lighter was invented before the match.";
   $fact_six = "In 1386 a pig in France was executed by public hanging for the murder of a child.";
   $fact_seven = "It snows pieces of metal on Venus.";
@@ -33,7 +33,7 @@
   $fact_thirteen = "Over one-thousand birds die a year from smashing into windows.";
   $fact_fourteen = "When hippos are upset, their sweat turns red.";
   $fact_fifteen = "If a female ferret does not have sex for two years, she will die.";
-  $fact_sixteen = "The signature line is actually the word 'signature' repeated over and over again.";
+  $fact_sixteen = "The signature line is actually the word \'signature\' repeated over and over again.";
 
   // Concepts
   $concept_one = "When a bottle is at rest, water flows out through the hole in the base, because the water\'s weight is directed downwards as a result of a downward gravitational force. Thus, as the bottle is falling, the outflow of water will be \'cancelled\' during the fall because both the bottle and the water are moving downwards in the same direction. After the bottle leaves the hand, the only force acting on it is its own weight, so it is in free fall, regardless of the direction of the bottle.";
