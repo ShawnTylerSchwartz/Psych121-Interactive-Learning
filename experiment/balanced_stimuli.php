@@ -93,8 +93,6 @@ var fact_one_stim_still = {
     }
   };
 
-/************ FACT TWO BLOCKS ************/
-
 var fact_two_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $fact_two; ?></p>',
