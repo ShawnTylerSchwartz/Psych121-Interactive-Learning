@@ -5,9 +5,9 @@
   $concepts_timing = 45000; //ms (45 s)
   $pretext_timing = 3500; // ms (3.5 s)
 
-  $post_trial_timing = 1500; //ms (1.5 s)
+  $post_trial_timing = 1000; //ms (1.0 s)
 
-  $stim_vids_length = 9400; //ms (9.4 s) TBD
+  $stim_vids_length = 9200; //ms (9.2 s) TBD
 
   $post_vid_timing = 250; //ms (.25 s)
 
