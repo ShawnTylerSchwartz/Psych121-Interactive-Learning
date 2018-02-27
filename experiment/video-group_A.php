@@ -4,5 +4,6 @@
   <?php include('balanced_stimuli.php'); ?>
   <?php include('balanced_questions.php'); ?>
   <?php include('instructions_consts.php'); ?>
+  <?php include('show_game.php'); ?>
   <?php include('init_exp_run_A.php'); ?>
 </script>

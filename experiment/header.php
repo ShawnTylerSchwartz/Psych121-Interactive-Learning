@@ -15,6 +15,7 @@
     <script src="src/js/jquery-ui.min.js"></script>
     <script src="src/jspsych.js"></script>
     <script src="src/plugins/jspsych-instructions.js"></script>
+    <script src="src/plugins/jspsych-instructions-pacman.js"></script>
     <script src="src/plugins/jspsych-html.js"></script>
     <script src="src/plugins/jspsych-survey-text.js"></script>
     <script src="src/plugins/jspsych-survey-multi-choice.js"></script>
