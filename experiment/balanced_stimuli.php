@@ -683,7 +683,7 @@ var fact_sixteen_stim_still = {
 var concept_one_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_one; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -722,7 +722,7 @@ var concept_one_stim_still = {
 var concept_two_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_two; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -761,7 +761,7 @@ var concept_two_stim_still = {
 var concept_three_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_three; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -800,7 +800,7 @@ var concept_three_stim_still = {
 var concept_four_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_four; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -839,7 +839,7 @@ var concept_four_stim_still = {
 var concept_five_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_five; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -878,7 +878,7 @@ var concept_five_stim_still = {
 var concept_six_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_six; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -917,7 +917,7 @@ var concept_six_stim_still = {
 var concept_seven_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_seven; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -956,7 +956,7 @@ var concept_seven_stim_still = {
 var concept_eight_text = {
     type: 'single-stim',
     stimulus: '<p class="fact"><?php echo $concept_eight; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
+    timing_response: <?php echo $concepts_timing; ?>,
     timing_post_trial: <?php echo $post_trial_timing; ?>,
     is_html: true,
     on_finish: function() {
@@ -995,6 +995,6 @@ var facts_and_concepts = [ "<?php echo $fact_one; ?>", "<?php echo $fact_two; ?>
 var final_yn_facts_concepts_block = {
   type: 'survey-multi-choice',
   questions: facts_and_concepts,
-  options: [yn_options],
-  required: [true]
+  options: [yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options],
+  required: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true,]
 };

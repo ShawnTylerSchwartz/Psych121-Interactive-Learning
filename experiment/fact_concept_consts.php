@@ -26,7 +26,7 @@
   $fact_six = "In 1386 a pig in France was executed by public hanging for the murder of a child.";
   $fact_seven = "It snows pieces of metal on Venus.";
   $fact_eight = "A sneeze travels about one-hundred miles per hour.";
-  $fact_nine = "On average, twelve newborns will be given to the wrong parents daily?";
+  $fact_nine = "On average, twelve newborns will be given to the wrong parents daily.";
   $fact_ten = "Pirates wore earrings because they believed it improved their eyesight.";
   $fact_eleven = "Christian Barnard was the first person to perform heart surgery.";
   $fact_twelve = "During your lifetime, you will spend around thirty-two days brushing your teeth.";
