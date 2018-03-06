@@ -44,20 +44,10 @@
           <option value="C-NA-NV-NS.php">C-NA-NV-NS</option>
         </select>
         <br /><br />
-        <button type="button" class="btn btn-primary btn-block" onclick="launchExpt()">Go <span class="glyphicon glyphicon-log-in"></span> </button>
+        <button type="button" class="btn btn-primary" onclick="launchExpt()">Go <span class="glyphicon glyphicon-log-in"></span></button>
         </center>
       </div>
       <div class="md-col-3"></div>
-      
-      <div class="input-group mb-3">
-        <select class="custom-select" id="inputGroupSelect01">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
-      
     </div>
 
     <footer>
