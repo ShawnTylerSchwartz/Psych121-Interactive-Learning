@@ -81,10 +81,22 @@ var fact_one_stim_moving = {
     }
   };
 
-var fact_one_stim_still = {
+var fact_one_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_01.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_01-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_one_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_01-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -120,10 +132,22 @@ var fact_two_stim_moving = {
     }
   };
 
-var fact_two_stim_still = {
+var fact_two_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_02.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_02-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_two_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_02-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -159,10 +183,22 @@ var fact_three_stim_moving = {
     }
   };
 
-var fact_three_stim_still = {
+var fact_three_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_03.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_03-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_three_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_03-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -198,10 +234,22 @@ var fact_four_stim_moving = {
     }
   };
 
-var fact_four_stim_still = {
+var fact_four_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_04.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_04-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_four_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_04-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -237,10 +285,22 @@ var fact_five_stim_moving = {
     }
   };
 
-var fact_five_stim_still = {
+var fact_five_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_05.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_05-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_five_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_05-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -276,10 +336,22 @@ var fact_six_stim_moving = {
     }
   };
 
-var fact_six_stim_still = {
+var fact_six_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_06.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_06-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_six_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_06-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -315,10 +387,22 @@ var fact_seven_stim_moving = {
     }
   };
 
-var fact_seven_stim_still = {
+var fact_seven_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_07.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_07-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_seven_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_07-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -354,10 +438,22 @@ var fact_eight_stim_moving = {
     }
   };
 
-var fact_eight_stim_still = {
+var fact_eight_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_08.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_08-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_eight_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_08-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -393,10 +489,22 @@ var fact_nine_stim_moving = {
     }
   };
 
-var fact_nine_stim_still = {
+var fact_nine_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_09.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_09-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var fact_nine_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/fact_still_09-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -432,10 +540,10 @@ var fact_ten_stim_moving = {
     }
   };
 
-var fact_ten_stim_still = {
+var fact_ten_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_10.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_10-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -444,232 +552,10 @@ var fact_ten_stim_still = {
     }
   };
 
-/************ FACT ELEVEN BLOCKS ************/
-
-var fact_eleven_text = {
+var fact_ten_stim_still_f2 = {
     type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_eleven; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_eleven_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_11.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_eleven_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_11.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ FACT TWELVE BLOCKS ************/
-
-var fact_twelve_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_twelve; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_twelve_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_12.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_twelve_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_12.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ FACT THIRTEEN BLOCKS ************/
-
-var fact_thirteen_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_thirteen; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_thirteen_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_13.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_thirteen_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_13.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ FACT FOURTEEN BLOCKS ************/
-
-var fact_fourteen_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_fourteen; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_fourteen_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_14.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_fourteen_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_14.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ FACT FIFTEEN BLOCKS ************/
-
-var fact_fifteen_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_fifteen; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_fifteen_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_15.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_fifteen_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_15.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ FACT SIXTEEN BLOCKS ************/
-
-var fact_sixteen_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $fact_sixteen; ?></p>',
-    timing_response: <?php echo $facts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_sixteen_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/fact_moving_16.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var fact_sixteen_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/fact_still_16.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/fact_still_10-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -705,10 +591,22 @@ var concept_one_stim_moving = {
     }
   };
 
-var concept_one_stim_still = {
+var concept_one_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_01.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_01-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var concept_one_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/concept_still_01-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -744,10 +642,22 @@ var concept_two_stim_moving = {
     }
   };
 
-var concept_two_stim_still = {
+var concept_two_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_02.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_02-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var concept_two_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/concept_still_02-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -783,10 +693,22 @@ var concept_three_stim_moving = {
     }
   };
 
-var concept_three_stim_still = {
+var concept_three_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_03.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_03-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var concept_three_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/concept_still_03-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -822,10 +744,22 @@ var concept_four_stim_moving = {
     }
   };
 
-var concept_four_stim_still = {
+var concept_four_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_04.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_04-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
+    timing_post_trial: <?php echo $post_vid_timing; ?>,
+    on_finish: function() {
+      jsPsych.data.addDataToLastTrial({
+        correct: true
+      });
+    }
+  };
+
+var concept_four_stim_still_f2 = {
+    type: 'single-stim',
+    stimulus: 'src/stim/stills/concept_still_04-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -861,10 +795,10 @@ var concept_five_stim_moving = {
     }
   };
 
-var concept_five_stim_still = {
+var concept_five_stim_still_f1 = {
     type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_05.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_05-1.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -873,25 +807,10 @@ var concept_five_stim_still = {
     }
   };
 
-/************ CONCEPT SIX BLOCKS ************/
-
-var concept_six_text = {
+var concept_five_stim_still_f2 = {
     type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $concept_six; ?></p>',
-    timing_response: <?php echo $concepts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var concept_six_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/concept_moving_06.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
+    stimulus: 'src/stim/stills/concept_still_05-2.jpg',
+    timing_response: <?php echo $stim_vids_length_half; ?>,
     timing_post_trial: <?php echo $post_vid_timing; ?>,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
@@ -900,101 +819,11 @@ var concept_six_stim_moving = {
     }
   };
 
-var concept_six_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_06.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ CONCEPT SEVEN BLOCKS ************/
-
-var concept_seven_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $concept_seven; ?></p>',
-    timing_response: <?php echo $concepts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var concept_seven_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/concept_moving_07.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var concept_seven_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_07.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-/************ CONCEPT EIGHT BLOCKS ************/
-
-var concept_eight_text = {
-    type: 'single-stim',
-    stimulus: '<p class="fact"><?php echo $concept_eight; ?></p>',
-    timing_response: <?php echo $concepts_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
-    is_html: true,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var concept_eight_stim_moving = {
-    type: 'single-stim',
-    stimulus: 'src/stim/gifs/concept_moving_08.gif',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var concept_eight_stim_still = {
-    type: 'single-stim',
-    stimulus: 'src/stim/stills/concept_still_08.png',
-    timing_response: <?php echo $stim_vids_length; ?>,
-    timing_post_trial: <?php echo $post_vid_timing; ?>,
-    on_finish: function() {
-      jsPsych.data.addDataToLastTrial({
-        correct: true
-      });
-    }
-  };
-
-var facts_and_concepts = [ "<?php echo $fact_one; ?>", "<?php echo $fact_two; ?>", "<?php echo $fact_three; ?>", "<?php echo $fact_four; ?>", "<?php echo $fact_five; ?>", "<?php echo $fact_six; ?>", "<?php echo $fact_seven; ?>", "<?php echo $fact_eight; ?>", "<?php echo $fact_nine; ?>", "<?php echo $fact_ten; ?>", "<?php echo $fact_eleven; ?>", "<?php echo $fact_twelve; ?>", "<?php echo $fact_thirteen; ?>", "<?php echo $fact_fourteen; ?>", "<?php echo $fact_fifteen; ?>", "<?php echo $fact_sixteen; ?>", "<?php echo $concept_one; ?>", "<?php echo $concept_two; ?>", "<?php echo $concept_three; ?>", "<?php echo $concept_four; ?>", "<?php echo $concept_five; ?>", "<?php echo $concept_six; ?>", "<?php echo $concept_seven; ?>", "<?php echo $concept_eight; ?>" ];
+var facts_and_concepts = [ "<?php echo $fact_one; ?>", "<?php echo $fact_two; ?>", "<?php echo $fact_three; ?>", "<?php echo $fact_four; ?>", "<?php echo $fact_five; ?>", "<?php echo $fact_six; ?>", "<?php echo $fact_seven; ?>", "<?php echo $fact_eight; ?>", "<?php echo $fact_nine; ?>", "<?php echo $fact_ten; ?>", "<?php echo $concept_one; ?>", "<?php echo $concept_two; ?>", "<?php echo $concept_three; ?>", "<?php echo $concept_four; ?>", "<?php echo $concept_five; ?>" ];
 
 var final_yn_facts_concepts_block = {
   type: 'survey-multi-choice',
   questions: facts_and_concepts,
-  options: [yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options],
-  required: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true,]
+  options: [yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options, yn_options],
+  required: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
 };
