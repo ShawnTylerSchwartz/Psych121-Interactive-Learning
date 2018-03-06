@@ -25,6 +25,7 @@
     </center>
     <p></p>
       <p class="lead text-center"><mark>Please select your assigned experimental group below.</mark></p>
+      <p class="lead text-center"><mark>*Please note</mark> that the <strong>initial loading</strong> of the experiment may take a few moments. Please let the page fully load to allow entire experiment to properly initialize.*</p>
     <div class="container">
       <div class="md-col-3"><br /></div>
       <div class="md-col-3">
