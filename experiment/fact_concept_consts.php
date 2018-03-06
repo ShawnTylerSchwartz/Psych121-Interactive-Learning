@@ -40,6 +40,6 @@
 
   $concept_four = "A sound source moving toward an observer appears to have a higher frequency and shorter wavelength due to the amount of wave pulses coming toward a source per second being more frequent and thus closer together in time.";
 
-  $concept_five = "Just about everyone at one time or another has been burned by hot water or steam. This problem compares the heat input to your skin from steam as opposed to hot water at the same temperature. Under these conditions, steam has to release the latent heat of vaporization as well as the heat stored in the water versus water just losing its heat directly to the external environment.";
+  $concept_five = "Just about everyone at one time or another has been burned by hot water or steam. This question compares the heat input to your skin from steam as opposed to hot water at the same temperature. Under these conditions, steam has to release the latent heat of vaporization as well as the heat stored in the water versus water just losing its heat directly to the external environment.";
 
 ?>

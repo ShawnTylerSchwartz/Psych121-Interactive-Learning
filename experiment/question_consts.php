@@ -16,7 +16,7 @@
   $concept_q_one = "When a mass-spring system oscillates, in what direction does the restoring force act on the system?";
   $concept_q_two = "What happens to the temperature when pressures increases in an isochoric process?";
   $concept_q_three = "What type of wavelength of light would refract more light?";
-  $concept_q_four = "How would the frequency of sound change as a sound source moved away from an observer.";
+  $concept_q_four = "How would the frequency of sound change as a sound source moves away from an observer.";
   $concept_q_five = "What burns skin more than hot water?";
     
 ?>
