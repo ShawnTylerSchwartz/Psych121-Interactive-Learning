@@ -19,7 +19,7 @@
   var comfort_scale_questions = [ "I am comfortable at this moment in time." ];
   var behere_scale_questions = [ "I would rather be somewhere else." ];
   var science_scale_questions = [ "I am comfortable with complex scientific concepts." ];
-  var level_of_agreement_scale = [ "Strongly Disagree", "Disagree", "Somewhat Disagree", "Neither Agree Nor Disagree", "Somehwat Agree", "Agree", "Strongly Agree" ];
+  var level_of_agreement_scale = [ "Strongly Disagree", "Disagree", "Somewhat Disagree", "Neither Agree Nor Disagree", "Somewhat Agree", "Agree", "Strongly Agree" ];
 
   var effort_scale_vid_questions = [ "Level of effort exerted for video tasks. (1=Least,5=Most)" ];
   var effort_scale_still_questions = [ "Level of effort exerted for still image tasks. (1=Least,5=Most)" ];
