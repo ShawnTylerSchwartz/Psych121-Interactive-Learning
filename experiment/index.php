@@ -29,7 +29,7 @@
       <div class="md-col-3"><br /></div>
       <div class="md-col-3">
         <center>
-        <select class="selectpicker show-tick" data-width="100%" name="exptgroup" id="exptgroup" accesskey="target">
+        <select class="custom-select" data-width="100%" name="exptgroup" id="exptgroup" accesskey="target">
           <option selected value='none'>Choose Experimental Group</option>
           <option value="A-PA-V-S.php">A-PA-V-S</option>
           <option value="B-PA-V-S.php">B-PA-V-S</option>
@@ -47,12 +47,10 @@
         <button type="button" class="btn btn-primary btn-block" onclick="launchExpt()">Go <span class="glyphicon glyphicon-log-in"></span> </button>
         </center>
       </div>
+      <div class="md-col-3"></div>
       
       <div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="inputGroupSelect01">Options</label>
-  </div>
-  <select class="custom-select" id="inputGroupSelect01">
+        <select class="custom-select" id="inputGroupSelect01">
     <option selected>Choose...</option>
     <option value="1">One</option>
     <option value="2">Two</option>
