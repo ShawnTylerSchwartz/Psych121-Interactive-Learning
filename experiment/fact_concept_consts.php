@@ -38,7 +38,7 @@
 
   $concept_three = "Using a prism, you can split up white light to form a spectrum. (A prism is a block of glass with a triangular cross-section.) The light waves are refracted as they enter and leave the prism. The shorter the wavelength of the light, the more it is refracted. As a result, red light is refracted the least and violet light is refracted the most, causing the colored light to spread out to form a spectrum.";
 
-  $concept_four = "A sound source moving toward an observer appears to have a higher frequency and shorter wavelength due to the amount of wave pulses coming toward a source per second being more frequent and thus closer together in time. Consequently, a source moving away from an observer appears to have a lower frequency and longer wavelength due to the direction being pushed away from the source and thus its wave pulses move toward the source less frequently as the distance between the source and the observer becomes greater.";
+  $concept_four = "A sound source moving toward an observer appears to have a higher frequency and shorter wavelength due to the amount of wave pulses coming toward a source per second being more frequent and thus closer together in time.";
 
   $concept_five = "Just about everyone at one time or another has been burned by hot water or steam. This problem compares the heat input to your skin from steam as opposed to hot water at the same temperature. Under these conditions, steam has to release the latent heat of vaporization as well as the heat stored in the water versus water just losing its heat directly to the external environment.";
 
