@@ -20,6 +20,10 @@
   var behere_scale_questions = [ "I would rather be somewhere else." ];
   var science_scale_questions = [ "I am comfortable with complex scientific concepts." ];
   var level_of_agreement_scale = [ "Strongly Disagree", "Disagree", "Somewhat Disagree", "Neither Agree Nor Disagree", "Somehwat Agree", "Agree", "Strongly Agree" ];
+
+  var effort_scale_vid_questions = [ "Level of effort exerted for video tasks. (1=Least,5=Most)" ];
+  var effort_scale_still_questions = [ "Level of effort exerted for still image tasks. (1=Least,5=Most)" ];
+  var effort_scale = [ "1", "2", "3", "4", "5" ];
   
   // Demographic Question Blocks
   var age_college_block = {
@@ -84,4 +88,16 @@
     type: 'survey-likert',
     questions: science_scale_questions,
     labels: [level_of_agreement_scale]
+  };
+
+  var video_effort_block = {
+    type: 'survey-likert',
+    questions: effort_scale_vid_questions,
+    labels: [effort_scale]
+  };
+
+  var still_effort_block = {
+    type: 'survey-likert',
+    questions: effort_scale_still_questions,
+    labels: [effort_scale]
   };
