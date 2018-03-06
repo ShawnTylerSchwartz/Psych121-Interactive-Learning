@@ -9,7 +9,7 @@
   // Demographic Question Choice Scales
   var gender_options = [ "Male", "Female", "Other" ];
   var race_options = [ "White", "Hispanic/Latino", "African American", "American Indian", "Asian", "Other" ];
-  var first_language_options = [ "English", "Spanish",  "Mandarin", "Hindi/Urdu", "Arabic", "Portuguese", "Bengali", "Russian", "Japanese", "Punjabi" ];
+  var first_language_options = [ "English", "Spanish",  "Mandarin", "Hindi/Urdu", "Arabic", "Portuguese", "Bengali", "Russian", "Japanese", "Punjabi", "Other" ];
   var yn_options = [ "Yes", "No" ];
   var cafe_options = [ "This Morning", "Yesterday Evening", "Yesterday Afternoon", "Yesterday Morning", "I haven't consumed caffeine in the last 48 hours." ];
   var sleep_options = [ "0-2 Hours", "2-4 Hours", "4-6 Hours", "6-8 Hours", "8 or more Hours" ];
