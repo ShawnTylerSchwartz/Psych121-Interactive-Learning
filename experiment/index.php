@@ -44,15 +44,11 @@
           <option value="C-NA-NV-NS.php">C-NA-NV-NS</option>
         </select>
         <br /><br />
-        <button type="button" class="btn btn-primary" onclick="launchExpt()">Go <span class="glyphicon glyphicon-log-in"></span></button>
+        <button type="button" class="btn btn-primary" onclick="launchExpt()">Begin Experiment!</button>
         </center>
       </div>
       <div class="md-col-3"></div>
-    </div>
-
-    <footer>
-    <p>&copy; Shawn T. Schwartz, 2018 for Psych 121 at UCLA.</p>
-    </footer>   
+    </div>  
 
     <!-- JS Libs -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
