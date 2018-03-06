@@ -831,8 +831,8 @@ var final_yn_facts_concepts_block = {
 var final_submit_end = {
     type: 'single-stim',
     stimulus: '<p class="fact">Thank you for participating. <strong>Press <em>spacebar</em> to submit your data</strong> and complete the experiment.</p>',
-    timing_response: <?php echo $pretext_timing; ?>,
-    timing_post_trial: <?php echo $post_trial_timing; ?>,
+    timing_response: <?php echo $end_timing; ?>,
+    timing_post_trial: <?php echo $end_sub_timing; ?>,
     is_html: true,
     on_finish: function() {
       jsPsych.data.addDataToLastTrial({
